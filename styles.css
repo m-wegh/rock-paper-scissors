@@ -1,13 +1,18 @@
 body {
     display: flex;
     flex-direction: column;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0;
 }
 
 .header {
     background-color: #8ee4af;
-    border: #8ee4af
+    padding:0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Bungee Shade', cursive;
+    font-size: 64px;
+
 }
 
 .game-body {
@@ -17,17 +22,26 @@ body {
 .buttons {
     display: flex;
     justify-content: space-around;
+    padding: 8px;
+    min-height: 150px;
+}
+#Rock {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxBIMXCvbWwYvcDjO3RWG8vunYuFWmAM-v3ymITyi4hg&s");
+    background-size:cover;
+    width: 200%;
+    height: 50%;
 }
 
-.rock, .paper, .scissors {
-    padding: 16px
+#Paper {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg4q_cYh3WzeQeQ7colmTdYCcl1Hx7XYP-q5KRRN8&s");
+    background-size: cover;
+    width: 200%;
+    height: 50%;
 }
 
-#Rock, #Paper, #Scissors {
-    background-color: #8ee4af;
-    color: black;
-    border: solid #8ee4af;
-    border-radius: 5px;
-    height: 32px;
-    width: 64px;
+#Scissors {
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrTCd2uKpeJrR_DyE15Dn-EK39z3qaqctRRsWvKuBF&s");
+    background-size: cover;
+    width: 200%;
+    height: 50%;
 }
