@@ -4,17 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Rock, Paper, Scissors</title>
 </head>
 <body>
-    <h2>Computer Choice:<span id="computer-choice"></span></h2>
-     <h2>User Choice:<span id="user-choice"></span></h2>
-        <h2>Result:<span id="result"></span></h2>
-
-        <button id="rock">Rock</button>
-        <button id="paper">Paper</button>
-        <button id="scissors">Scissors</button>
-
+    <div class="header">
+        <h1> Rock, Paper, Scissors</h1>
+    </div>
+    <div class="game-body">
+        <p><strong> Directions:</strong> For this game, you will be playing against the computer.  Select one of the 3 options below ("Rock," "Paper" or "Scissors") to choose what you would like to do.  The computer will tell you who won.</p>
+    <h2 id="computer-choice"> Computer Choice <span id="computer-choice"></span></h2>
+     <h2 id="user-choice"> User Choice <span id="user-choice"></span></h2>
+        <h2> Result: <span id="result"></span></h2>
+    <div class="buttons">
+        <div class="rock">
+        <button id="Rock">Rock</button>
+        </div>
+        <div class="paper">
+        <button id="Paper">Paper</button>
+        </div>
+        <div class="scissors">
+        <button id="Scissors">Scissors</button>
+        </div>
+        </div>
+    </div>
 
     <script src="app.js" charset="utf-8"></script>
 </body>

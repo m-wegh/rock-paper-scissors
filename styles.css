@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.header {
+    background-color: #8ee4af;
+    border: #8ee4af
+}
+
+.game-body {
+    background-color: #edf5e1;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.rock, .paper, .scissors {
+    padding: 16px
+}
+
+#Rock, #Paper, #Scissors {
+    background-color: #8ee4af;
+    color: black;
+    border: solid #8ee4af;
+    border-radius: 5px;
+    height: 32px;
+    width: 64px;
+}
